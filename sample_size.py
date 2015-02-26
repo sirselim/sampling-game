@@ -145,6 +145,10 @@ class guessN:
 
         
     def exit(self): 
+        """
+        The exit function with root.destroy() works across multiple OS platforms
+        note: sys.ext() makes evil things happen with Windows
+        """
    		root.destroy()
    		pass
   
