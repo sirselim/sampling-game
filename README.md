@@ -8,6 +8,8 @@ The game is based on an equation (specifically, n=((alpha+beta)/(x1-x2)/sd)^2) t
 
 This program is written in `python 3.4`. Copy and paste to an IDE and run in console. Alternatively, save the file (e.g. sample_game.py) and run at the command line. On windows OS, open the start menu and type cmd in the search bar and hit enter. Navigate to the directory of the script (in this case sample_game.py) and type **python sample_game.py**. The game will run once and exit. Further effort is needed to create a user interface and to make the program executable without using the code.  
 
+**Note:** for the this program to run under Linux you must make sure you have `python3-matplotlib` installed.
+
 ## Updated GUI version
 
 To run the updated GUI version of this game you will need to download and unzip from the master branch and then follow the instructions below for your specific OS.
